@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+knowledge/cache/
+.env
+data/raw/tokenizer.json

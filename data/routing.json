@@ -1,0 +1,506 @@
+{
+ "muse_spark_layer1": [
+  {
+   "layer": 1,
+   "mean_similarity_between_texts": 0.383,
+   "neighbour_overlap": 1.13,
+   "random_overlap": 0.25,
+   "top_expert": {
+    "prose": 139,
+    "code": 50,
+    "maths": 130,
+    "poem": 91,
+    "spanish": 76
+   },
+   "top_share": {
+    "prose": 0.29,
+    "code": 0.49,
+    "maths": 0.85,
+    "poem": 0.45,
+    "spanish": 0.59
+   }
+  }
+ ],
+ "granite": [
+  {
+   "layer": 1,
+   "mean_similarity_between_texts": 0.815,
+   "neighbour_overlap": 2.44,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 31,
+    "code": 31,
+    "maths": 31,
+    "poem": 31,
+    "spanish": 10
+   },
+   "top_share": {
+    "prose": 0.75,
+    "code": 0.58,
+    "maths": 0.77,
+    "poem": 0.67,
+    "spanish": 0.71
+   }
+  },
+  {
+   "layer": 2,
+   "mean_similarity_between_texts": 0.95,
+   "neighbour_overlap": 4.34,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 8,
+    "code": 8,
+    "maths": 8,
+    "poem": 8,
+    "spanish": 8
+   },
+   "top_share": {
+    "prose": 1.0,
+    "code": 1.0,
+    "maths": 1.0,
+    "poem": 1.0,
+    "spanish": 1.0
+   }
+  },
+  {
+   "layer": 3,
+   "mean_similarity_between_texts": 0.95,
+   "neighbour_overlap": 4.32,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 24,
+    "code": 24,
+    "maths": 24,
+    "poem": 24,
+    "spanish": 24
+   },
+   "top_share": {
+    "prose": 1.0,
+    "code": 1.0,
+    "maths": 1.0,
+    "poem": 1.0,
+    "spanish": 1.0
+   }
+  },
+  {
+   "layer": 4,
+   "mean_similarity_between_texts": 0.862,
+   "neighbour_overlap": 3.31,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 2,
+    "code": 2,
+    "maths": 2,
+    "poem": 2,
+    "spanish": 13
+   },
+   "top_share": {
+    "prose": 0.91,
+    "code": 0.78,
+    "maths": 0.74,
+    "poem": 0.83,
+    "spanish": 0.9
+   }
+  },
+  {
+   "layer": 5,
+   "mean_similarity_between_texts": 0.838,
+   "neighbour_overlap": 2.53,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 30,
+    "code": 30,
+    "maths": 30,
+    "poem": 12,
+    "spanish": 30
+   },
+   "top_share": {
+    "prose": 0.53,
+    "code": 0.65,
+    "maths": 0.71,
+    "poem": 0.67,
+    "spanish": 0.79
+   }
+  },
+  {
+   "layer": 6,
+   "mean_similarity_between_texts": 0.919,
+   "neighbour_overlap": 3.52,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 24,
+    "code": 24,
+    "maths": 24,
+    "poem": 24,
+    "spanish": 24
+   },
+   "top_share": {
+    "prose": 1.0,
+    "code": 0.96,
+    "maths": 1.0,
+    "poem": 0.92,
+    "spanish": 0.97
+   }
+  },
+  {
+   "layer": 7,
+   "mean_similarity_between_texts": 0.843,
+   "neighbour_overlap": 3.35,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 21,
+    "code": 21,
+    "maths": 21,
+    "poem": 21,
+    "spanish": 24
+   },
+   "top_share": {
+    "prose": 0.71,
+    "code": 0.81,
+    "maths": 0.78,
+    "poem": 0.86,
+    "spanish": 0.71
+   }
+  },
+  {
+   "layer": 8,
+   "mean_similarity_between_texts": 0.738,
+   "neighbour_overlap": 3.57,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 21,
+    "code": 13,
+    "maths": 5,
+    "poem": 13,
+    "spanish": 7
+   },
+   "top_share": {
+    "prose": 0.6,
+    "code": 0.72,
+    "maths": 0.74,
+    "poem": 0.64,
+    "spanish": 0.81
+   }
+  },
+  {
+   "layer": 9,
+   "mean_similarity_between_texts": 0.791,
+   "neighbour_overlap": 3.9,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 9,
+    "code": 29,
+    "maths": 29,
+    "poem": 9,
+    "spanish": 9
+   },
+   "top_share": {
+    "prose": 0.79,
+    "code": 0.87,
+    "maths": 0.85,
+    "poem": 0.94,
+    "spanish": 0.94
+   }
+  },
+  {
+   "layer": 10,
+   "mean_similarity_between_texts": 0.722,
+   "neighbour_overlap": 3.56,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 27,
+    "code": 30,
+    "maths": 0,
+    "poem": 9,
+    "spanish": 25
+   },
+   "top_share": {
+    "prose": 0.79,
+    "code": 0.84,
+    "maths": 0.62,
+    "poem": 0.69,
+    "spanish": 0.67
+   }
+  },
+  {
+   "layer": 11,
+   "mean_similarity_between_texts": 0.738,
+   "neighbour_overlap": 3.6,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 28,
+    "code": 6,
+    "maths": 3,
+    "poem": 17,
+    "spanish": 13
+   },
+   "top_share": {
+    "prose": 0.69,
+    "code": 0.72,
+    "maths": 0.68,
+    "poem": 0.64,
+    "spanish": 0.56
+   }
+  },
+  {
+   "layer": 12,
+   "mean_similarity_between_texts": 0.694,
+   "neighbour_overlap": 3.62,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 12,
+    "code": 20,
+    "maths": 2,
+    "poem": 7,
+    "spanish": 31
+   },
+   "top_share": {
+    "prose": 0.69,
+    "code": 0.67,
+    "maths": 0.72,
+    "poem": 0.53,
+    "spanish": 0.68
+   }
+  },
+  {
+   "layer": 13,
+   "mean_similarity_between_texts": 0.804,
+   "neighbour_overlap": 3.58,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 26,
+    "code": 13,
+    "maths": 13,
+    "poem": 6,
+    "spanish": 19
+   },
+   "top_share": {
+    "prose": 0.69,
+    "code": 0.72,
+    "maths": 0.71,
+    "poem": 0.56,
+    "spanish": 0.75
+   }
+  },
+  {
+   "layer": 14,
+   "mean_similarity_between_texts": 0.818,
+   "neighbour_overlap": 3.95,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 28,
+    "code": 28,
+    "maths": 28,
+    "poem": 28,
+    "spanish": 28
+   },
+   "top_share": {
+    "prose": 0.97,
+    "code": 1.0,
+    "maths": 0.9,
+    "poem": 0.97,
+    "spanish": 0.98
+   }
+  },
+  {
+   "layer": 15,
+   "mean_similarity_between_texts": 0.655,
+   "neighbour_overlap": 3.84,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 29,
+    "code": 13,
+    "maths": 13,
+    "poem": 26,
+    "spanish": 7
+   },
+   "top_share": {
+    "prose": 0.72,
+    "code": 0.91,
+    "maths": 0.84,
+    "poem": 0.64,
+    "spanish": 0.78
+   }
+  },
+  {
+   "layer": 16,
+   "mean_similarity_between_texts": 0.743,
+   "neighbour_overlap": 3.34,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 10,
+    "code": 16,
+    "maths": 10,
+    "poem": 20,
+    "spanish": 10
+   },
+   "top_share": {
+    "prose": 0.67,
+    "code": 0.67,
+    "maths": 0.72,
+    "poem": 0.61,
+    "spanish": 0.9
+   }
+  },
+  {
+   "layer": 17,
+   "mean_similarity_between_texts": 0.742,
+   "neighbour_overlap": 3.13,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 6,
+    "code": 20,
+    "maths": 23,
+    "poem": 21,
+    "spanish": 26
+   },
+   "top_share": {
+    "prose": 0.56,
+    "code": 0.71,
+    "maths": 0.69,
+    "poem": 0.72,
+    "spanish": 0.67
+   }
+  },
+  {
+   "layer": 18,
+   "mean_similarity_between_texts": 0.701,
+   "neighbour_overlap": 3.56,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 18,
+    "code": 13,
+    "maths": 13,
+    "poem": 11,
+    "spanish": 8
+   },
+   "top_share": {
+    "prose": 0.71,
+    "code": 0.99,
+    "maths": 0.95,
+    "poem": 0.53,
+    "spanish": 0.92
+   }
+  },
+  {
+   "layer": 19,
+   "mean_similarity_between_texts": 0.776,
+   "neighbour_overlap": 3.25,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 17,
+    "code": 5,
+    "maths": 9,
+    "poem": 31,
+    "spanish": 20
+   },
+   "top_share": {
+    "prose": 0.55,
+    "code": 0.77,
+    "maths": 0.83,
+    "poem": 0.61,
+    "spanish": 0.57
+   }
+  },
+  {
+   "layer": 20,
+   "mean_similarity_between_texts": 0.767,
+   "neighbour_overlap": 3.22,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 14,
+    "code": 14,
+    "maths": 14,
+    "poem": 15,
+    "spanish": 14
+   },
+   "top_share": {
+    "prose": 0.91,
+    "code": 0.87,
+    "maths": 0.8,
+    "poem": 0.53,
+    "spanish": 0.73
+   }
+  },
+  {
+   "layer": 21,
+   "mean_similarity_between_texts": 0.732,
+   "neighbour_overlap": 3.59,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 24,
+    "code": 1,
+    "maths": 21,
+    "poem": 1,
+    "spanish": 8
+   },
+   "top_share": {
+    "prose": 0.76,
+    "code": 1.0,
+    "maths": 1.0,
+    "poem": 0.72,
+    "spanish": 1.0
+   }
+  },
+  {
+   "layer": 22,
+   "mean_similarity_between_texts": 0.768,
+   "neighbour_overlap": 3.64,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 2,
+    "code": 19,
+    "maths": 13,
+    "poem": 2,
+    "spanish": 18
+   },
+   "top_share": {
+    "prose": 0.57,
+    "code": 0.99,
+    "maths": 0.87,
+    "poem": 0.56,
+    "spanish": 0.98
+   }
+  },
+  {
+   "layer": 23,
+   "mean_similarity_between_texts": 0.743,
+   "neighbour_overlap": 3.99,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 19,
+    "code": 3,
+    "maths": 12,
+    "poem": 9,
+    "spanish": 16
+   },
+   "top_share": {
+    "prose": 0.63,
+    "code": 0.97,
+    "maths": 0.9,
+    "poem": 0.72,
+    "spanish": 0.67
+   }
+  },
+  {
+   "layer": 24,
+   "mean_similarity_between_texts": 0.702,
+   "neighbour_overlap": 3.73,
+   "random_overlap": 2.0,
+   "top_expert": {
+    "prose": 16,
+    "code": 27,
+    "maths": 20,
+    "poem": 16,
+    "spanish": 30
+   },
+   "top_share": {
+    "prose": 0.88,
+    "code": 0.8,
+    "maths": 0.91,
+    "poem": 0.78,
+    "spanish": 1.0
+   }
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+# 2026-10-19 11:31:04  $ .venv/bin/python -I knowledge/route_trace.py Every morning the bakery on the corner opens at six. The owner unlocks the door, switches on the ovens and lays out the first trays of bread while the street is still quiet. By seven there is a short line of people waiting, most of them on their way to work, and by nine the shelves are half empty. 1 knowledge/trace-l1-prose.json
+   40.7  11:31:45 layer 1 routed
+   40.7  wrote knowledge/trace-l1-prose.json
+# exit 0

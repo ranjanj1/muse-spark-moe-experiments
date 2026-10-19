@@ -1,0 +1,15 @@
+{
+ "note": "Open-weight MoE language models: totals/active from each model card (or paper/blog where named); expert counts from each config.json (data/raw/configs/) unless noted. Release month from the card/paper.",
+ "models": [
+  {"name": "Mixtral 8x7B", "maker": "Mistral AI", "released": "2023-12", "total_B": 47, "active_B": 13, "routed_experts": 8, "per_token": 2, "shared": 0, "layers": 32, "source": "arXiv 2401.04088 abstract; config.json"},
+  {"name": "OLMoE-1B-7B", "maker": "AllenAI", "released": "2024-09", "total_B": 7, "active_B": 1, "routed_experts": 64, "per_token": 8, "shared": 0, "layers": 16, "source": "HF card; config.json"},
+  {"name": "Granite 3.1 1B-A400M", "maker": "IBM", "released": "2024-12", "total_B": 1.33, "active_B": 0.4, "routed_experts": 32, "per_token": 8, "shared": 0, "layers": 24, "source": "HF safetensors total 1,334,628,352; name A400M; config.json"},
+  {"name": "DeepSeek-V3", "maker": "DeepSeek", "released": "2024-12", "total_B": 671, "active_B": 37, "routed_experts": 256, "per_token": 8, "shared": 1, "layers": 61, "dense_first_layers": 3, "source": "HF card; config.json (scoring_func sigmoid)"},
+  {"name": "Llama 4 Maverick", "maker": "Meta", "released": "2025-04", "total_B": 400, "active_B": 17, "routed_experts": 128, "per_token": 1, "shared": 1, "layers": null, "note": "alternating dense and MoE layers", "source": "Meta blog 2025-04-05 (config gated)"},
+  {"name": "Qwen3-235B-A22B", "maker": "Alibaba Qwen", "released": "2025-04", "total_B": 235, "active_B": 22, "routed_experts": 128, "per_token": 8, "shared": 0, "layers": 94, "source": "HF card; config.json"},
+  {"name": "Kimi K2", "maker": "Moonshot AI", "released": "2025-07", "total_B": 1000, "active_B": 32, "routed_experts": 384, "per_token": 8, "shared": 1, "layers": 61, "dense_first_layers": 1, "source": "HF card; config.json"},
+  {"name": "GLM-4.5", "maker": "Zhipu (Z.ai)", "released": "2025-07", "total_B": 355, "active_B": 32, "routed_experts": 160, "per_token": 8, "shared": 1, "layers": 92, "dense_first_layers": 3, "source": "HF card; config.json"},
+  {"name": "gpt-oss-120b", "maker": "OpenAI", "released": "2025-08", "total_B": 117, "active_B": 5.1, "routed_experts": 128, "per_token": 4, "shared": 0, "layers": 36, "source": "HF card; config.json"},
+  {"name": "Muse Spark Open", "maker": "Meta", "released": "2026-10", "total_B": 816, "active_B": 42, "routed_experts": 256, "per_token": 8, "shared": 0, "layers": 62, "source": "HF card; config.json"}
+ ]
+}

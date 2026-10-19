@@ -1,0 +1,42 @@
+{
+ "model": "ibm-granite/granite-3.1-1b-a400m-instruct",
+ "tokens": 330,
+ "results": [
+  {
+   "setting": "router top-8",
+   "experts": 8,
+   "surprise_nats": 1.594,
+   "same_top_token_as_normal": 1.0
+  },
+  {
+   "setting": "router top-4",
+   "experts": 4,
+   "surprise_nats": 2.602,
+   "same_top_token_as_normal": 0.603
+  },
+  {
+   "setting": "router top-2",
+   "experts": 2,
+   "surprise_nats": 8.112,
+   "same_top_token_as_normal": 0.052
+  },
+  {
+   "setting": "router top-1",
+   "experts": 1,
+   "surprise_nats": 11.782,
+   "same_top_token_as_normal": 0.006
+  },
+  {
+   "setting": "random 8",
+   "experts": 8,
+   "surprise_nats": 7.677,
+   "same_top_token_as_normal": 0.036
+  },
+  {
+   "setting": "router top-32",
+   "experts": 32,
+   "surprise_nats": 2.71,
+   "same_top_token_as_normal": 0.615
+  }
+ ]
+}

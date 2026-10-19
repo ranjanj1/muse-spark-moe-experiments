@@ -1,0 +1,7 @@
+# 2026-10-19 11:33:06  $ .venv/bin/python -I knowledge/route_trace.py "Hope" is the thing with feathers -
+That perches in the soul -
+And sings the tune without the words -
+And never stops - at all - 1 knowledge/trace-l1-poem.json
+   26.9  11:33:33 layer 1 routed
+   26.9  wrote knowledge/trace-l1-poem.json
+# exit 0

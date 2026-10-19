@@ -1,0 +1,15 @@
+# 2026-10-19 11:31:45  $ .venv/bin/python -I knowledge/route_trace.py class Counter:
+    def __init__(self):
+        self.total = 0
+
+    def add(self, x):
+        self.total = self.total + x
+        return self.total
+
+def mean(values):
+    if not values:
+        return 0.0
+    return sum(values) / len(values) 1 knowledge/trace-l1-code.json
+   35.7  11:32:21 layer 1 routed
+   35.7  wrote knowledge/trace-l1-code.json
+# exit 0

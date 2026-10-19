@@ -1,0 +1,6 @@
+# 2026-10-19 11:38:22  $ .venv/bin/python -I knowledge/routing_stats.py
+    0.2  muse_spark_layer1
+    0.2    L 1 similarity 0.38  neighbours share 1.13 of 8 (random 0.25)  top {'prose': 139, 'code': 50, 'maths': 130, 'poem': 91, 'spanish': 76}
+    0.3  granite
+    0.3    L 1 similarity 0.81  neighbours share 2.44 of 8 (random 2.00)  top {'prose': 31, 'code': 31, 'maths': 31, 'poem': 31, 'spanish': 10}
+# exit 0
