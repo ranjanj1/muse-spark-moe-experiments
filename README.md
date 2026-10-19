@@ -19,7 +19,11 @@ is sent to.
   experts 4.5× more than chance.
 - **The balancing bias** (`knowledge/bias_effect.py`): averages exactly 0 per layer; changes ≥1 of the 8 picks for
   93% of tokens (2.6 of 8 on average).
-- **Full-depth trace** of one sentence through all 62 layers: `knowledge/trace-deep-derivative.json`.
+- **Full-depth trace** of one sentence through all 62 layers (`knowledge/trace-deep-derivative.json`,
+  `knowledge/deep_stats.py` → `data/deep.json`): "The derivative of x squared is two x." took 4 h 06 min and 2,551
+  streamed experts. Any two tokens share ~1 of 8 experts on the lowest floors, 2–3 higher up; the two "x" tokens share
+  3.8 of 8 on floors 1–10 and 2.8 on floors 53–62 (random: 0.25). With experts split in order over 4 GPUs, a token's
+  8 experts land on all 4 GPUs 64% of the time, the same as random.
 - **IBM Granite 3.1 1B-A400M** (32 experts, 8 per token): routing by depth (`knowledge/granite_trace.py`) and what
   happens with fewer, random or all experts (`knowledge/granite_ablation.py`): 8 random experts ≈ as bad as 2 chosen.
 - **Ten open MoE models compared** from their own model cards and configs: `data/moe-models.json`.
